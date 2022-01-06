@@ -1,0 +1,22 @@
+import java.util.HashSet;
+import java.util.Locale;
+
+public class DuplicateCount {
+    public static int duplicateCount(String text) {
+        HashSet<Character> duplicate = new HashSet<>();
+        text = text.toLowerCase();
+        for (int i = 0; i < text.length(); i++) {
+            for (int j = 0; j < text.length(); j++) {
+                if (text.charAt(i) == text.charAt(j) && i!=j) {
+                    duplicate.add(text.charAt(i));
+
+                }
+            }
+        }
+        return duplicate.size();
+    }
+
+    public static void main(String[] args) {
+        duplicateCount("aabbccddeefg");
+    }
+}
