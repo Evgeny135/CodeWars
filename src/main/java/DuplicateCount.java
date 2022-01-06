@@ -1,6 +1,4 @@
 import java.util.HashSet;
-import java.util.Locale;
-
 public class DuplicateCount {
     public static int duplicateCount(String text) {
         HashSet<Character> duplicate = new HashSet<>();
