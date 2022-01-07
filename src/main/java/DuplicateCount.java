@@ -13,8 +13,4 @@ public class DuplicateCount {
         }
         return duplicate.size();
     }
-
-    public static void main(String[] args) {
-        duplicateCount("aabbccddeefg");
-    }
 }
