@@ -49,4 +49,5 @@ public class GreedIsGood {
     public static void main(String[] args) {
         greedy(new int[]{3, 4, 5, 5, 5});
     }
+
 }

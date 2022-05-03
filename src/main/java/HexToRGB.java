@@ -6,6 +6,4 @@ public class HexToRGB {
         rgb[2] = Integer.parseInt(hex.substring(5 , 7), 16);
         return rgb;
     }
-
-
 }
